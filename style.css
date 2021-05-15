@@ -1,0 +1,75 @@
+body{
+    background-image:linear-gradient(to right, black, rgb(182, 228, 236)) ;
+    font-family: 'Open Sans', sans-serif, 'Roboto','Sansita Swashed', cursive; 
+;
+}
+
+.container {
+    background-color: white;
+    height: 40em;
+    width: 30em;
+    margin: auto;
+    margin-top: 10em;
+    border-radius: 25px;
+
+}
+
+header{
+    background-color: rgb(16, 34, 17);
+    margin-top: 7em;
+    border-radius: 20px 20px 0px 0px;
+
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight:lighter;
+}
+h2{
+    color:black;
+    font-family: 'Sansita Swashed', cursive; 
+    font-weight: 4em;
+    text-align: center;
+}
+
+p {
+    margin-left: 30px;
+    color: grey;
+}
+
+input{
+    margin-left: 30px;
+    padding: 10px 30px 10px 30px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    border: 1px solid rgb(213, 213, 223);
+}
+
+select{
+    padding: 10px 80px 10px 80px;
+    margin-left: 20px;
+    border: 2px solid black;
+    font-weight: bold;
+    font-size: 1em;
+
+}
+
+
+
+button{
+    display: block;
+    margin:50px 200px;
+    padding: 10px 60px 10px 60px;
+    text-transform: uppercase;
+    background-color:gray;
+    font-weight: bold;
+    
+}
+
+button:hover{
+    background-color: rgb(62, 129, 62);
+    cursor: pointer;
+}

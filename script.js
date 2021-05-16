@@ -14,8 +14,8 @@ function afterClick() {
 
     totalTip = Math.round(totalTip * 100) / 100;
     totalTip = totalTip.toFixed(2);
-    tip2.textContent = "Tip amount";
-    tip.textContent = "N " + totalTip;
+    tip2.textContent = "";
+    tip.textContent = `Pay N${totalTip} as a tip to compensate the customer`;
   }
 }
 

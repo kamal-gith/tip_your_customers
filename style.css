@@ -1,4 +1,6 @@
 body{
+    margin: 0;
+    padding: 0;
     background-image:linear-gradient(to right, black, rgb(182, 228, 236)) ;
     font-family: 'Open Sans', sans-serif, 'Roboto','Sansita Swashed', cursive; 
 ;
@@ -28,9 +30,9 @@ h1 {
     font-weight:lighter;
 }
 h2{
-    color:black;
+    color:rgb(15, 87, 83);
     font-family: 'Sansita Swashed', cursive; 
-    font-weight: 4em;
+    font-weight: 1em;
     text-align: center;
 }
 .author{
